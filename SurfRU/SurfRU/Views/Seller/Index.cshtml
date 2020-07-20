@@ -1,0 +1,12 @@
+﻿@model SurfRU.Models.DBModels.User
+
+@{
+    ViewBag.Title = "А кто у нас продавец-то?"; /*Заголовок страницы*/
+}
+
+<h2>Информация о продавце</h2>
+Никнейм: @Model.Nickname  <br>
+Фамилия: @Model.LastName  <br>
+Имя: @Model.Name  <br>
+Электронная почта: @Model.Email  <br>
+О себе: @Model.About  <br>

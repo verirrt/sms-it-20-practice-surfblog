@@ -1,0 +1,17 @@
+﻿@model SurfRU.Models.ViewModels.MyModel
+
+@{
+    ViewBag.Title = "AboutMe";
+}
+
+<h2>Через модель</h2>
+Имя: @Model.Name,
+Возраст: @Model.Age
+
+<ul>
+    @foreach (var price in ViewBag.Prices)
+    {
+        <li class="price redtext">@price рублей</li>
+    }
+</ul>
+

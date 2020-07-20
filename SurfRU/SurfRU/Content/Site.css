@@ -1,0 +1,166 @@
+﻿* {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color:#F5F5F5;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 400px;
+    font-size: 14px;
+}
+
+textarea {
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: auto;
+}
+
+.label {
+    width:100%;
+}
+
+.add-post-area {
+    width:100%;
+    max-width:100%;
+
+}
+
+.surfheading {
+    background-color: #C7D2D9;
+}
+
+.panel-heading {
+    background-color: #C7D2D9 !important;
+    font-size: 13px;
+    color: #6C757D !important;
+}
+
+.price {
+    font-style:italic;
+}
+
+label {
+    width:100%;
+}
+
+.headerpic {
+    /* SURF.RU */
+    /*position: absolute;*/
+    width: 181px;
+    height: 38px;
+    position: absolute;
+
+    /* Logo */
+    font-family: Faster One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    /*display: flex;*/
+    align-items: center;
+    color: #FFFFFF !important;
+}
+
+.navbar {
+    height: 53px;
+    border: none;
+}
+
+.full-width {
+    width:100%;
+    max-width: 1340px;
+}
+
+.tiny-panel {
+    margin: 20px auto;
+    width: 300px;
+}
+
+.wide-panel {
+    margin: 20px auto;
+    width: 450px;
+    background: #DCE4E9;
+    border: 1px solid #D5D5D5;
+}
+
+.panel {
+    width: 70%;
+    border: 1px solid #CED4DA;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.link-color {
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000 !important;
+}
+
+.avatar {
+    height: 37px;
+    max-height: 37px;
+    border-radius: 25px;
+}
+
+.first-block {
+    padding-top: 33px;
+    margin-bottom: 49px;
+    width: 70%;
+    margin: auto;
+}
+
+.btn-style {
+    background: #DCE4E9;
+    border: 1px solid #AABACC;
+    box-sizing: border-box;
+    height: 35px;
+    width: 194px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #818283;
+    border-radius: 0px;
+}
+
+.author {
+    display: inline;
+    color: black;
+    font-size: 16px;
+    margin-left:10px;
+}
+
+.date {
+    display: inline;
+    color: #757575;
+    font-size: 11px;
+    margin-left: 11px;
+}
+
+.auth {
+    width: 271px;
+    max-width:271px;
+}
