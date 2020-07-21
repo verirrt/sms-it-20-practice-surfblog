@@ -171,3 +171,8 @@ label {
     width:100%;
     text-align: center;
 }
+
+.form-labels {
+    color: #6C757D;
+    font-size: 13px;
+}
